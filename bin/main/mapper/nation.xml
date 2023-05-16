@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.tenco.blog.dto.Datadt2.java">
+<insert id="insertNation" >
+	insert into nation(alarm_lvl, continent_cd, continent_eng_nm, continent_nm, country_eng_nm, country_iso_alp2, country_nm, dang_map_download_url, flag_download_url, map_download_url, region_ty, remark, written_dt)
+	VALUES(#{alarm_lvl}, #{continent_cd}, #{continent_eng_nm}, #{continent_nm}, #{country_eng_nm}, #{country_iso_alp2}, #{country_nm}, #{dang_map_download_url}, #{flag_download_url}, #{map_download_url}, #{region_ty}, #{remark}, #{written_dt})
+</insert>
+</mapper>
